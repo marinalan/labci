@@ -5,7 +5,7 @@
 name: Rust Build Test
 
 on:
-  pull_request:
+  workflow_dispatch:
     branches: [main]
 
 jobs:
